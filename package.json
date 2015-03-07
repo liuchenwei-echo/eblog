@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/liuchenwei-echo/eblog/issues"
   },
-  "homepage": "https://github.com/liuchenwei-echo/eblog"
+  "homepage": "https://github.com/liuchenwei-echo/eblog",
+  "dependencies": {
+    "ejs": "^2.3.1",
+    "express": "^4.12.2",
+    "log4js": "^0.6.22",
+    "marked": "^0.3.3"
+  }
 }
