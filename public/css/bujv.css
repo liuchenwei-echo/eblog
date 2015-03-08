@@ -10,6 +10,7 @@ body{
 
 }
 .content{
+
 }
 .footer{
 	clear:both;
@@ -141,6 +142,7 @@ body{
 	float:left;
 	padding-top:30px;
 	border-right:1px solid #282828;
+	min-height: 614px;
 }
 .left{
 	float:left;
