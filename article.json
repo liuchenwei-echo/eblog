@@ -2,61 +2,36 @@
  	"author":"Echo Liu",
  	"headIcon":"head-icon.jpg",
 	"articles":[{
-		"id":"hello-world!",
-		"title":"你好世界！",
-		"tags":["first","hello-world"],
-		"abstract":"try first",
+		"id":"test",
+		"title":"This is a test",
+		"tags":["first","test"],
+		"abstract":"this is a test !",
 		"img":"pic-1.jpg",
-		"time":"2015-10-1",
+		"time":"2015-3-09",
 		"type":"Article"
 	},{
-		"id":"hello-world2!",
-		"title":"你好世界2！",
-		"tags":["first","hello-world"],
-		"abstract":"hehe <br/>",
-		"time":"2015-10-2",
+		"id":"hello1",
+		"title":"hello 1",
+		"tags":["hello","test"],
+		"abstract":"this is a test !",
+		"img":"pic-1.jpg",
+		"time":"2015-3-09",
 		"type":"Article"
 	},{
-		"id":"hello-world3!",
-		"title":"你好世界3！",
-		"tags":["short","hello-world"],
-		"abstract":"helo world!\n This is a short p3!",
-		"time":"2015-10-2",
-		"type":"Short"
+		"id":"hello 2",
+		"title":"This is a test",
+		"tags":["hello","test"],
+		"abstract":"this is a test !",
+		"img":"pic-1.jpg",
+		"time":"2015-3-09",
+		"type":"Article"
 	},{
-		"id":"hello-world3!",
-		"title":"你好世界3！",
-		"tags":["short","hello-world"],
-		"abstract":"helo world!\n This is a short p3!",
-		"time":"2015-10-2",
-		"type":"Short"
-	},{
-		"id":"hello-world3!",
-		"title":"你好世界3！",
-		"tags":["short","hello-world"],
-		"abstract":"helo world!\n This is a short p3!",
-		"time":"2015-10-2",
-		"type":"Short"
-	},{
-		"id":"hello-world3!",
-		"title":"你好世界3！",
-		"tags":["short","hello-world"],
-		"abstract":"helo world!\n This is a short p3!",
-		"time":"2015-10-2",
-		"type":"Short"
-	},{
-		"id":"hello-world3!",
-		"title":"你好世界3！",
-		"tags":["short","hello-world"],
-		"abstract":"helo world!\n This is a short p3!",
-		"time":"2015-10-2",
-		"type":"Short"
-	},{
-		"id":"hello-world3!",
-		"title":"你好世界3！",
-		"tags":["short","hello-world"],
-		"abstract":"helo world!\n This is a short p3!",
-		"time":"2015-10-2",
-		"type":"Short"
+		"id":"你好",
+		"title":"This is a test",
+		"tags":["你好","test"],
+		"abstract":"this is a test !",
+		"img":"pic-1.jpg",
+		"time":"2015-3-09",
+		"type":"Article"
 	}]
 }

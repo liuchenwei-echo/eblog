@@ -4,17 +4,7 @@
 	padding:0;
 	margin:0;
 }
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
-	border:0;
-	font-family:inherit;
-	font-size:100%;
-	font-style:inherit;
-	font-weight:inherit;
-	margin:0;
-	outline:0;
-	padding:0;
-	vertical-align:baseline;
-}
+
 body,input,textarea {
 	color:#eee;
 	font:14px "Microsoft YaHei","Helvetica Neue,Helvetica",Arial,sans-serif;
@@ -357,6 +347,19 @@ body{
 	margin: 10px auto;
 	font-size:18px;
 }
+
+.datelist .count{
+	position: absolute;
+	top:7.5px;
+	left: 122px;
+	background: #eee;
+	color:#000;
+	min-width: 25px;
+	line-height: 25px;
+	height: 25px;
+	border-radius: 4px;
+}
+
 .datelist li{
 	position:relative;
 	border-left:1px solid #282828;
@@ -366,7 +369,6 @@ body{
 	padding:5px 0;
 }
 .datelist li a{
-	
 	background:#333;
 	padding:5px 10px;
 	border-radius:3px;
@@ -464,7 +466,6 @@ body{
 	padding-bottom:10px;
 	
 }
-
 .tag-text{
 	padding: 0 5px;
 }
@@ -472,3 +473,14 @@ body{
 	padding: 0 5px;
 }
 
+/* 为代码块定义的样式 */
+pre.prettyprint {
+    font-family: Monaco,Consolas,Monospace,'Lucida Console','Liberation Mono','DejaVu Sans Mono','Bitstream Vera Sans Mono','Courier New','宋体';
+    font-size: 14px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background: #181818;
+}
+pre.prettyprint ol {
+    margin: 0 0 0 40px;
+}
