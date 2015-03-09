@@ -1,13 +1,14 @@
 <div class="msg-card">
-	<div class="user-img left"> </img src="image/head-icon.jpg" width="65" class="head-img" /> </div>
+	<div class="user-img left"> 
+		<img src="/image/<%= headIcon %>" width="65" class="head-img" />
+	</div>
 	<div class="msg-content left">
-		<div class="msg-title"><a href="#" class="bold hblue">基本资料</a></div>
+		<div class="msg-title"><a href="#" class="bold hblue"><%= article.title %></a></div>
 		<div>
-			<input type="button" value="Login -->" id="maskbtn" class="login-btn"/>
+			<%- article.abstract %>
 		</div>
 	</div>
 	<div class="msg-create-time">
-		由<span class="create-time-text blue bold">用户</span>发表于<span class="create-time-text blue bold">时间</span>
-		|<span class="create-time-text blue bold">回复数量</span> 
+		由<span class="create-time-text blue bold"><%= author %></span>发表于<span class="create-time-text blue bold"><%= article.time %></span>
 	</div>
 </div>

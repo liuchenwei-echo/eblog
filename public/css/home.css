@@ -181,7 +181,7 @@ body{
 }
 
 
-.blue{
+.blue,.blue a{
 	color:#4399ee;
 }
 
@@ -400,7 +400,6 @@ body{
 	width:65px;
 	padding:6px 20px 0 0;
 	overflow:hidden;
-	
 }
 .head-img{
 	border-radius:3px;

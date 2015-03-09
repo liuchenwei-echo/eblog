@@ -1,9 +1,22 @@
 <% include inc/header %>
 <div class="content-left">
 	<div class="cards">
-		<div class="page"> LocalPosition><a href="#" >CV</a> </div>
-		<% include inc/msg-card %>
-		<% include inc/article-card%>
+		<div class="page"> LocalPosition><a href="/" >Home</a> </div>
+			<% 
+				var len = articles.length;
+				for(var i = 0;i<len;i++){
+					var article = articles[i];
+					if(article.type=="Article"){
+					%>
+						<% include inc/article-card %>
+					<%
+					}else if(article.type="Short"){
+					%>
+						<% include inc/msg-card %>
+					<%
+					}
+				}
+			%>
 		<div class="last"></div>
 	</div>
 </div>
