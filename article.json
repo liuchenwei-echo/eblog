@@ -3,35 +3,10 @@
  	"headIcon":"head-icon.jpg",
 	"articles":[{
 		"id":"test",
-		"title":"This is a test",
-		"tags":["first","test"],
-		"abstract":"this is a test !",
-		"img":"pic-1.jpg",
-		"time":"2015-3-09",
-		"type":"Article"
-	},{
-		"id":"hello1",
-		"title":"hello 1",
-		"tags":["hello","test"],
-		"abstract":"this is a test !",
-		"img":"pic-1.jpg",
-		"time":"2015-3-09",
-		"type":"Article"
-	},{
-		"id":"hello 2",
-		"title":"This is a test",
-		"tags":["hello","test"],
-		"abstract":"this is a test !",
-		"img":"pic-1.jpg",
-		"time":"2015-3-09",
-		"type":"Article"
-	},{
-		"id":"你好",
-		"title":"This is a test",
-		"tags":["你好","test"],
-		"abstract":"this is a test !",
-		"img":"pic-1.jpg",
-		"time":"2015-3-09",
+		"title":"Test Demo",
+		"tags":["prettify","test","demo"],
+		"abstract":"A test for prettify.js",
+		"time":"2015-3-10",
 		"type":"Article"
 	}]
 }

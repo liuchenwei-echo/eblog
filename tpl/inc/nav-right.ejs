@@ -6,7 +6,7 @@
       for(var i in _tagMap){
         %>
           <li>
-            <a href="/tag/<%= i %>"><%= i %></a>
+            <a href="/tag/<%= i %>"><%= _strUtil.upper1st(i) %></a>
             <span class="count"><%= _tagMap[i].length %></span>
           </li>
         <%

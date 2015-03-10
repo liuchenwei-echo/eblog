@@ -175,6 +175,10 @@ body{
 	color:#4399ee;
 }
 
+.blue a:hover{
+	text-decoration: underline;
+}
+
 
 .hblue:hover{
 	color:#4399ee;

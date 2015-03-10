@@ -10,14 +10,14 @@
 	<% } %>
 	<div class="article-summary"> <%-article.abstract %>
 	</div>
-	<div class="article-tags"> 发表在<span class="tag-text blue bold"> <a href ="/<%= article.type.toLowerCase() %>" ><%=article.type %></a></span>| 标签<span class="tag-text blue bold">
+	<div class="article-tags"> 发表在<span class="tag-text blue bold"> <a href ="/<%= article.type.toLowerCase() %>" ><%=_strUtil.upper1st(article.type) %></a></span>| 标签<span class="tag-text blue bold">
 		<% 
 			var tags = article.tags;
 			if(tags){
 				var tlen = tags.length;
 				for(var i = 0;i<tlen;i++){
 					%>
-						<a href = "/tags/<%= tags[i] %>" /><%= tags[i] %> &nbsp;</a> 
+						<a href = "/tag/<%= tags[i].toLowerCase() %>" /><%= _strUtil.upper1st(tags[i]) %></a> &nbsp;
 					<%
 				}
 			}
