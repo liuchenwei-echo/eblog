@@ -1,12 +1,30 @@
  {
  	"author":"Echo Liu",
  	"headIcon":"head-icon.jpg",
+ 	"blog":{
+ 		"title":"Just a simple blog",
+ 		"subtitile":"create by node.js"
+ 		},
 	"articles":[{
+		"id":"shortMessage",
+		"title":"ShortMessage Demo",
+		"tags":["prettify","test","demo"],
+		"abstract":"This is a short message demo for test.",
+		"createAt":"2015-3-11",
+		"type":"short"
+	},{
 		"id":"test",
 		"title":"Test Demo",
 		"tags":["prettify","test","demo"],
-		"abstract":"A test for prettify.js",
-		"time":"2015-3-10",
-		"type":"Article"
+		"abstract":"A test for prettify.js.<br/>使用marked.js将MarkDown文本编译成Html。<br/>代码使用google的prettify.js自动高亮处理。",
+		"createAt":"2015-3-10",
+		"type":"article"
+	},{
+		"id":"aboutMe",
+		"title":"About Me",
+		"createAt":"2015-3-10",
+		"type":"aboutMe",
+		"comment":false,
+		"show":false
 	}]
 }

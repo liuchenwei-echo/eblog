@@ -6,7 +6,7 @@
 			var len = articles.length; 
 			for(var i = 0;i<len;i++){  
 				var article = articles[i];
-				if(article.type != "Article") continue;
+				if(article.type.toLowerCase().trim() !== "article" || article.show === false ) continue;
 		%>
 				<% include inc/article-card %>
 		<%  } %>

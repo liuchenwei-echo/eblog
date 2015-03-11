@@ -6,11 +6,10 @@
 			var len = articles.length; 
 			for(var i = 0;i<len;i++){  
 				var article = articles[i];
-				if(article.type != "Short") continue;
+				if(article.type.toLowerCase().trim() !== "short") continue;
 		%>
 				<% include inc/msg-card %>
 		<%  } %>
-
 		<div class="last"></div>
 	</div>
 </div>

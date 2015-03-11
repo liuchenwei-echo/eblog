@@ -1,12 +1,9 @@
 <% include inc/header %>
 <div class="content-left">
 	<div class="cards">
-		<div class="page"> LocalPosition><a href="/article">Article</a>><a href="/article/<%= article.id %>" ><%= article.title %></a> </div>
+		<div class="page"> LocalPosition><a href="/article">Article</a>><a href="/article/<%= id %>" ><%= title %></a> </div>
 		<% include inc/article-box %>
 		<div class="last"></div>
-		<% if(article.comment !== false) { %>
-			<% include inc/footer-plugin %>
-		<% } %>
 	</div>
 </div>
 <div class="content-right">

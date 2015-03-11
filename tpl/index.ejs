@@ -6,11 +6,11 @@
 				var len = articles.length;
 				for(var i = 0;i<len;i++){
 					var article = articles[i];
-					if(article.type=="Article"){
+					if(article.type.toLowerCase().trim()==="article" && article.show !== false ){
 					%>
 						<% include inc/article-card %>
 					<%
-					}else if(article.type="Short"){
+					}else if(article.type.toLowerCase().trim()==="short" && article.show !== false ){
 					%>
 						<% include inc/msg-card %>
 					<%

@@ -3,14 +3,14 @@
 		<a href="/article/<%=article.id%>" class="hblue bold"><%= article.title %></a>
 	</div>
 	<div class="article-create-time">
-		由<span class="create-time-text blue bold"><%= author %></span>发表于<span class="create-time-text blue bold"><%= article.time %></span>
+		由<span class="create-time-text blue bold"><%= author %></span>发表于<span class="create-time-text blue bold"><%= article.createAt %></span>
 	</div>
 	<% if(article.img) {%>
 		<div class="article-img"> <img src="/image/<%= article.img %>" width="600" /> </div>
 	<% } %>
 	<div class="article-summary"> <%-article.abstract %>
 	</div>
-	<div class="article-tags"> 发表在<span class="tag-text blue bold"> <a href ="/<%= article.type.toLowerCase() %>" ><%=_strUtil.upper1st(article.type) %></a></span>| 标签<span class="tag-text blue bold">
+	<div class="article-tags"> 发表在<span class="tag-text blue bold"> <a href ="/<%= article.type.toLowerCase() %>" ><%=_strUtil.upper1st(article.type) %></a></span>| Tags<span class="tag-text blue bold">
 		<% 
 			var tags = article.tags;
 			if(tags){

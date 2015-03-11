@@ -1,13 +1,14 @@
 <div class="nav-right">
   <div class="datelist">
-  <div class="list-title">T a g L i n e</div>
+  <div class="list-title">Tags</div>
     <ul>
     <%
       for(var i in _tagMap){
         %>
           <li>
-            <a href="/tag/<%= i %>"><%= _strUtil.upper1st(i) %></a>
-            <span class="count"><%= _tagMap[i].length %></span>
+            <a href="/tag/<%= i %>"><%= _strUtil.upper1st(i) %>
+            <span class="count">×<%= _tagMap[i].length %></span>
+            </a>
           </li>
         <%
       }

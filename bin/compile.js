@@ -1,5 +1,5 @@
-var marked = require("marked");
 var fs = require("fs");
+var marked = require("marked");
 var log4js = require("log4js");
 var logger = log4js.getLogger();
 
@@ -22,7 +22,6 @@ marked.setOptions({
 	langPrefix: 'prettyprint linenums lang-',
     renderer: renderer
 });
-
 
 module.exports=function(path){
 	var pathMd = "article/"+path+".md";

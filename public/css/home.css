@@ -353,11 +353,15 @@ body{
 }
 
 .datelist .count{
+	/*
 	position: absolute;
 	top:7.5px;
 	left: 122px;
-	background: #eee;
+		background: #eee;
 	color:#000;
+	 */
+	margin-left:5px;
+	padding: 0 5px;
 	min-width: 25px;
 	line-height: 25px;
 	height: 25px;
@@ -380,7 +384,13 @@ body{
 	color:#eee;
 	width:100px;
 	display:block;
-	text-align:center;
+	text-align:left;
+}
+.datelist li a span{
+	float: right;
+	width: 30px;
+	display:inline-block;
+	text-align:right;
 }
 
 .datelist li a:hover{
