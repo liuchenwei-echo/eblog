@@ -63,7 +63,7 @@ module.exports={
 		console.log(acfg);
 		res.render("article",acfg);
 	},
-	"/short":function(req,res){
+	"/message":function(req,res){
 		console.log(cfg);
 		res.render("shortList",cfg);
 	},

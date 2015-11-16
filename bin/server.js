@@ -5,6 +5,7 @@ var logger = log4js.getLogger();
 var port = 3000;
 
 exports.run = function run() {
+	debugger;
 	var app = express();
 	app.set('view engine', 'ejs'); 
 	app.set('views', __dirname + '/../tpl');
